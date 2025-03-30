@@ -248,12 +248,10 @@ export default function Component() {
               <div className="md:col-span-2 flex justify-center">
                 <div className="relative w-64 h-80 overflow-hidden rounded-lg shadow-xl">
                   <div className="absolute inset-0 bg-black/10 z-10"></div>
-                  <Image
+                  <img
                     src="/images/profile.png"
                     alt="Celso Ladislau Junior"
-                    fill
-                    style={{ objectFit: "cover" }}
-                    className="z-0"
+                    className="w-full h-full object-cover"
                   />
                   <div className="absolute bottom-0 left-0 right-0 p-4 bg-gradient-to-t from-black/70 to-transparent z-20">
                     <h3 className="text-xl font-bold text-white">Celso Ladislau Junior</h3>
