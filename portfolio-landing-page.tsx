@@ -249,7 +249,7 @@ export default function Component() {
                 <div className="relative w-64 h-80 overflow-hidden rounded-lg shadow-xl">
                   <div className="absolute inset-0 bg-black/10 z-10"></div>
                   <img
-                    src="/images/profile.jpeg"
+                    src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/77860173.jfif-LBr14htEneXwgPS9E4BSqZTvs5NCSr.jpeg"
                     alt="Celso Ladislau Junior"
                     className="w-full h-full object-cover"
                   />
